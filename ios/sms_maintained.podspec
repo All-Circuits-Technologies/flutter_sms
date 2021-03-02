@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'sms'
+  s.name             = 'sms_maintained'
   s.version          = '0.2.6'
   s.summary          = 'SMS library'
   s.description      = <<-DESC
@@ -15,7 +15,6 @@ SMS library
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  
+
   s.ios.deployment_target = '8.0'
 end
-
